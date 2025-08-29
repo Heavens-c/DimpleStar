@@ -8,6 +8,7 @@
 <script src="slide/js/jquery.js"></script>
 <script src="slide/js/amazingslider.js"></script>
 <script src="slide/js/initslider-1.js"></script>
+<script src="slide/js/chatbot.js"></script>
 </head>
 <body>
 <div id="wrapper">
@@ -24,8 +25,7 @@
 	</div>
     <div id="content">
     	<div id="gallerycontainer">
-			<!-- <div style="margin:10 auto; padding:30px 20px 20px 20px;">	 -->
-				<div class="gallery-inner">
+			<div style="margin:10 auto; padding:30px 20px 20px 20px;">	
 				<div class="login">
 					<div id="right">
 						<?php
@@ -67,11 +67,12 @@
   <footer id="footer" class="site-footer" role="contentinfo">
     <div class="container footer-inner">
       <a href="index.php" class="footer-logo" aria-label="Dimple Star Transport home">
-        <img src="images/footer-logo.jpg" alt="Dimple Star Transport" loading="lazy" />
+        <img src="images/wifi.png" alt="Dimple Star Transport" loading="lazy" />
       </a>
       <p class="muted">&copy; Dimple Star Transport</p>
     </div>
   </footer>
+
 
 </div>
 </body>

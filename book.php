@@ -168,7 +168,7 @@
 			<div class="clearfix"></div>
         </div>
 		<div id="footer">
-			<a href="index.php"><img src="images/footer-logo.jpg" alt="Dimple Star Transport" /></a>
+			<a href="index.php"><img src="images/wifi.jpg" alt="Dimple Star Transport" /></a>
 			<p>&copy;Dimple Star Transport<br /></p>
 		</div>
     </div>
