@@ -3,7 +3,7 @@
 	$email = $_POST['login_email'];
 	$password = $_POST['login_password'];
 	
-	$con = mysqli_connect("localhost","root","","users_db");
+	$con = mysqli_connect("localhost","root","","dimplestar");
 	
 	$email = mysqli_real_escape_string($con, $email);
 	$sql = "SELECT password, salt FROM members WHERE email = '$email';";
@@ -22,4 +22,5 @@
 		$_SESSION['email'] = $email;
 		header("location: index.php");
 	}
+
 ?>
