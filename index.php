@@ -10,16 +10,28 @@
 <!-- Font Awesome for icons -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 
-<!-- Slider Scripts -->
-<script src="slide/js/jquery.js"></script>
-<script src="slide/js/amazingslider.js"></script>
-<script src="slide/js/initslider-1.js"></script>
+<!-- Slider Script -->
+<script src="slide/js/simple-slider.js"></script>
 
 <!-- SEO -->
 <meta name="description" content="Dimple Star Transport modern bus booking system with routes, schedules, and terminals.">
 
 <style>
 /* Extra styles to replace inline CSS */
+
+/* Simple slider */
+.simple-slider {
+    position: relative;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.simple-slider img {
+    display: none;
+    width: 100%;
+}
+.simple-slider img.active {
+    display: block;
+}
 
 /* Contact Info Box */
 .info-box {
@@ -95,17 +107,13 @@
             
             <!-- SLIDER -->
             <div class="content-wrapper fade-in-up">
-                <div style="margin:0px auto;max-width:1024px;">
-                    <div id="amazingslider-1" class="hover-lift">
-                        <ul class="amazingslider-slides" style="display:none;">
-                            <li><img src="slide/images/b1.png" alt="Bus Service 1" /> </li>
-                            <li><img src="slide/images/b2.png" alt="Bus Service 2" /></li>
-                            <li><img src="slide/images/b3.png" alt="Bus Service 3" /></li>
-                            <li><img src="slide/images/b4.png" alt="Bus Service 4" /></li>
-                        </ul>
-                    </div>
+                <div class="simple-slider hover-lift">
+                    <img src="slide/images/b1.png" alt="Bus Service 1" class="active" />
+                    <img src="slide/images/b2.png" alt="Bus Service 2" />
+                    <img src="slide/images/b3.png" alt="Bus Service 3" />
+                    <img src="slide/images/b4.png" alt="Bus Service 4" />
                 </div>
-
+            
                 <!-- CONTACT INFO -->
                 <div class="slide-in info-box">
                     <h2 style="text-align: center; margin-bottom: 2rem;">Contact Information</h2>
